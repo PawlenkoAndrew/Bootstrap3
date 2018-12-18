@@ -1,0 +1,24 @@
+
+.main-block{
+background-color:$custom-yellow;
+
+.navbar{
+	font-weight: bold;
+	font-size: 22px;
+}
+.main-header{
+	padding-bottom: 40px;
+}
+.navbar-brand{
+		
+		padding: 0 15px;
+		
+	}
+	.navbar-toggle{
+		background-color: $custom-gray;
+		.icon-bar{
+			background-color: $custom-yellow;
+		}
+	}
+}
+

@@ -1,0 +1,101 @@
+body{
+	font-family: $custom-font-family-sans-serif;
+	h1{
+	font-weight: bold;
+	text-transform: none;
+	color:$custom-gray-darken;
+	}
+	h2{
+		line-height: 24px;
+		text-transform: none;
+	}
+
+
+}
+.main-block{
+	padding-bottom: 80px;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+}
+.main-foto{
+	padding:15px 0;
+
+	@media(min-width: 768px){
+		padding: 0;
+		
+		}
+}
+.your-inspiration{
+	position: relative;
+	p{
+		color:$custom-gray-gray;
+		text-transform: none;
+	}
+
+	img{
+		
+	}
+
+	.inspire{
+	position: static;
+
+	@media(min-width: 768px){
+		position: absolute;
+		top:50%;
+		transform: translate(0%, -50%);
+		
+		}
+
+
+	a{
+		display: inline-block;
+		margin-right: 30px;
+		margin-top: 20px;
+
+		
+		}
+	}
+}
+
+.tinyone-features{
+	padding: 80px 0px;
+	text-align: center;
+
+	p{
+		color:$custom-gray-lighter;
+
+	}
+	.icon-common{
+	
+
+	@media(min-width: 1000px){
+		padding-bottom: 80px;
+		}
+
+	}
+}
+.title{
+padding-bottom: 90px;
+}
+.tinyone-features-icons{
+	text-align: left;
+	
+
+	h2{
+		margin-top:0px;
+	}
+
+article{
+	padding: 15px 0;
+
+	@media(min-width: 768px){
+		padding: 0;
+		
+		}
+	}
+	
+}
