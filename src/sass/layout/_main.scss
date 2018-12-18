@@ -12,6 +12,7 @@ body{
 
 
 }
+
 .main-block{
 	padding-bottom: 80px;
 }
@@ -31,6 +32,7 @@ body{
 }
 .your-inspiration{
 	position: relative;
+
 	p{
 		color:$custom-gray-gray;
 		text-transform: none;
@@ -99,3 +101,9 @@ article{
 	}
 	
 }
+.carousel{
+	.carousel-indicators{
+	bottom: -50px;
+	}
+}
+

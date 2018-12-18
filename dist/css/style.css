@@ -390,6 +390,7 @@ q:after {
 
 .develop-info .links-group {
   padding: 10px 10px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -500,6 +501,10 @@ body h2 {
   .tinyone-features-icons article {
     padding: 0;
   }
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px;
 }
 
 /*!
@@ -1375,7 +1380,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 980px;
+    width: 970px;
   }
 }
 
@@ -3556,6 +3561,44 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+tr.collapse.in {
+  display: table-row;
+}
+
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .caret {
@@ -7717,6 +7760,7 @@ q:after {
 
 .develop-info .links-group {
   padding: 10px 10px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -7827,6 +7871,10 @@ body h2 {
   .tinyone-features-icons article {
     padding: 0;
   }
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px;
 }
 
 /*!
@@ -8702,7 +8750,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 980px;
+    width: 970px;
   }
 }
 
@@ -10883,6 +10931,44 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+tr.collapse.in {
+  display: table-row;
+}
+
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .caret {

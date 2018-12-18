@@ -24,15 +24,16 @@
             <header class="main-header">
                     <nav class="navbar" role="navigation">
                           <div class="container">
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                              <a href="#" class="navbar-brand"><img src="images/logo.png" alt=""></a>
-                            </div>
+                              <div class="row">
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                  <a href="#" class="navbar-brand"><img src="images/logo.png" alt=""></a>
+                                </div>
                             <div id="navbar" class="navbar-collapse collapse aria-expanded="false">
                               <ul class="nav navbar-nav navbar-right ">
                                 <li class="active"><a href="#">Features</a></li>
@@ -41,11 +42,18 @@
                               </ul>
                             </div>
                           </div>
+                          </div>
                     </nav>
                 </header>
 
                 <div class="container">
-                    <div class="your-inspiration col-xs-12">
+                  <div class="row">
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="your-inspiration col-xs-12">
                         <div class="inspire col-sm-5">
                              <h1>Inspire your inspiration</h1> 
                              <h2>Simple to use for your app, products showcase and your inspiration</h2>
@@ -63,10 +71,40 @@
                                 </div>
                                
                             </div>
+      
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/3.jpg" alt="#">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+        <img src="images/2.jpg" alt="#">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+</div>
+
+
+
+                    
                     </div>
                 </div>
+              </div>
                     <div class="tinyone-features">
                         <div class="container">
+                          <div class="row">
                             <div class="title col-md-12">
                                 <h1>Tinyone features</h1>
                                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</h2>
@@ -122,12 +160,14 @@
                                  </div>
 
                             </div>
+                          </div>
                         </div>
                     </div>
 
                 <footer>
                     <div class="keep-in-touch">
                         <div class="container">
+                          <div class="row">
                             <div class="headline col-sm-10 col-sm-offset-1">
                                 <h1>Keep in touch with us</h1>
                                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</h2>
@@ -178,6 +218,7 @@
                            </div> 
                         </div>
                         
+                          </div>
                         </div>
                     </div>
                 </footer>
